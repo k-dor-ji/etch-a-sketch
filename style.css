@@ -6,7 +6,12 @@
 }
 
 .grid{
-  flex: 0 0 calc(6.25%); /* 16 items per row with spacing;; flex-basis is 100%/number of col needed */
+  flex: 0 0;
+  /*flex-basis: calc(6.25%); 16 items per row with spacing;; flex-basis is 100%/number of col needed */
   height: 50px;
   background-color: black;
+}
+
+.grid.hovered{
+    background-color: blue;
 }
