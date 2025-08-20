@@ -1,0 +1,12 @@
+#container {
+    display:flex;
+    flex-wrap: wrap;
+    padding:100px;
+    background-color: gray;
+}
+
+.grid{
+  flex: 0 0 calc(6.25%); /* 16 items per row with spacing;; flex-basis is 100%/number of col needed */
+  height: 50px;
+  background-color: black;
+}
