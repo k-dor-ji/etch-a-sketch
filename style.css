@@ -1,17 +1,28 @@
+body{
+  display:flex;
+  flex-direction: column;
+  width:100vw;
+  background-image: url(images/canvas.jpg);
+  justify-content:center;
+  background-size: cover;
+}
+
 #container {
     display:flex;
     flex-wrap: wrap;
     padding:100px;
-    background-color: gray;
 }
 
 .grid{
   flex: 0 0;
-  /*flex-basis: calc(6.25%); 16 items per row with spacing;; flex-basis is 100%/number of col needed */
+  /*flex-basis:6.25%; 16 items per row with spacing;; flex-basis is 100%/number of col needed */
   height: 50px;
-  background-color: black;
+  background-color: gray;
 }
 
+
 .grid.hovered{
-    background-color: blue;
+  box-shadow: 0 0 5px rgba(255,255,255,0.6);
+    outline: 2px solid red;
 }
+
